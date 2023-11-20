@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply max-w-[1280px] mx-auto px-5
+}
+
+.btn {
+    @apply inline-flex rounded-full cursor-pointer border border-[#e0e0e0] py-2.5 px-5 sm:py-3 sm:px-7 text-sm sm:text-base font-medium justify-center items-center
+}
+
+.pagination_btn {
+    @apply flex items-center justify-center px-3 h-8 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 
+}
